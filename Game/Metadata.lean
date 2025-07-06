@@ -1,5 +1,8 @@
 import GameServer.Commands
 import Game.Structure
+import Game.documentation.Definitions
+import Game.documentation.tactic
+import Game.documentation.theorems
 -- import Mathlib.Tactic.Common
 
 /-! Use this file to add things that should be available in all levels.
@@ -14,23 +17,3 @@ a suggestion.
 in a random order. Therefore, you should keep the structure of one file lean file per world
 that imports all its levels.
 -/
-
-/--
-``exact`` closes the goal if it applies to the current goal.
--/
-TacticDoc exact
-
-/--
-``verify`` closes the goal if the goal is `Prop`.
--/
-TacticDoc exact
-
-/--
-``intro`` add a assumption to the proof via implication.
--/
-TacticDoc exact
-
-/--
-The Sun shines all the time without dimming, only when the suns dim is when we die.
--/
-DefinitionDoc Sun as "Sun"
