@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Wed Apr 10 15:31:40 2024\n"
+"POT-Creation-Date: Sun Jul  6 02:22:43 2025\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -55,12 +55,11 @@ msgid "This introduction is shown before one enters level 1 of the demo world. U
 msgstr ""
 
 #: Game
-msgid "Hello World Game"
+msgid "Sun or moon"
 msgstr ""
 
 #: Game
-msgid "This text appears on the starting page where one selects the world/level to play.\n"
-"You can use markdown."
+msgid "Sun or moon, which is it. This is an adaptation of knight or knave by"
 msgstr ""
 
 #: Game

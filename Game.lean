@@ -1,11 +1,10 @@
 import Game.Levels.DemoWorld
 
 -- Here's what we'll put on the title screen
-Title "Hello World Game"
+Title "Sun or moon"
 Introduction
 "
-This text appears on the starting page where one selects the world/level to play.
-You can use markdown.
+Sun or moon, which is it. This is an adaptation of knight or knave by
 "
 
 Info "
@@ -21,7 +20,7 @@ Use markdown.
 Languages "English"
 CaptionShort "Game Template"
 CaptionLong "You should use this game as a template for your own game and add your own levels."
--- Prerequisites "" -- add this if your game depends on other games
+Prerequisites "knightsandknaves-lean4game" -- add this if your game depends on other games
 -- CoverImage "images/cover.png"
 
 /-! Build the game. Show's warnings if it found a problem with your game. -/
